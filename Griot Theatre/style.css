@@ -1,0 +1,167 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    height: 60px;
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.navbar-brand{
+   display: flex;
+   flex-direction: column; 
+   justify-content: center;
+   margin-left: 5%;
+   color: white;
+}
+
+.navbar-list{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: 60%;
+   height: 100%; 
+}
+
+.nav-item{
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+a{
+    color: white;    
+}
+
+a:hover{
+    color: lightblue;
+}
+
+.background{
+    z-index: -1;
+    width: 100%;
+    position: fixed;
+    margin-top: 50px;
+
+}
+
+.shows{
+    height: 5em;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    font-size: 100px;
+    margin-bottom: 5px;
+}
+.profile{
+    background-color: white;
+}
+.flex-container{
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    align-content:center;
+    margin-top: -200px;
+    margin: auto;
+    background-color:white;
+    border-radius: 5px; 
+    height: 500px;
+    width: 600px;
+}
+.date{
+    background-color: lightgray;
+    color: black;
+    display: flex;
+    align-content: space-between;
+    height: 30px;
+    align-items: center;
+    max-width: 100%;
+    padding-left: 5px;
+}
+#photo{
+    margin-left: 2px;
+    margin-top: 2px;
+    margin-bottom: 4px;
+}
+p{
+    padding-left: 15px;
+}
+.showinfo{
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+button{
+    height: 40px;
+    width: 125px;
+    margin-left: 40px;
+    margin-top: 30px;
+    background-color: lemonchiffon;
+}
+
+.foot{
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content: space-evenly;
+}
+.map{
+    width: 250px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.footerinfo{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font-size:  10px;
+}
+
+.footershows{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font-size: 10px;
+}
+
+.socialmedia{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font-size: 10px;
+}
+
+.footerheading{
+    font-size: 2em;
+    padding-left: 15px;
+}
